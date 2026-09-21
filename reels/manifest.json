@@ -1,0 +1,272 @@
+[
+ {
+  "slug": "charlene-02",
+  "persona": "charlene",
+  "account": "blueprint",
+  "title": "Cross-Section Reveal",
+  "note": "Two-specimen comparison hook, hard cut into the recipe build.",
+  "dur": 39.5,
+  "mb": 5.16
+ },
+ {
+  "slug": "charlene-05",
+  "persona": "charlene",
+  "account": "blueprint",
+  "title": "Transparent Gut Pour",
+  "note": "Clear-vessel specimen, denial pour, wash-away payoff.",
+  "dur": 57.7,
+  "mb": 11.44
+ },
+ {
+  "slug": "charlene-06",
+  "persona": "charlene",
+  "account": "blueprint",
+  "title": "Banana Powder Hook",
+  "note": "Prop held at mid-chest, macro insert on the pour.",
+  "dur": 41.1,
+  "mb": 9.41
+ },
+ {
+  "slug": "charlene-10",
+  "persona": "charlene",
+  "account": "blueprint",
+  "title": "Cinnamon Honey Macro",
+  "note": "Hands-only macro insert; every ingredient enacted in the hook.",
+  "dur": 27.6,
+  "mb": 4.64
+ },
+ {
+  "slug": "charlene-11",
+  "persona": "charlene",
+  "account": "blueprint",
+  "title": "Boiled Egg Build",
+  "note": "Ingredient-led open, bowl fills the frame, no dead air between beats.",
+  "dur": 43.3,
+  "mb": 7.74
+ },
+ {
+  "slug": "charlene-19",
+  "persona": "charlene",
+  "account": "blueprint",
+  "title": "Belly Dome Pour",
+  "note": "Signature dome specimen, one continuous pour, clean held last frame.",
+  "dur": 28.7,
+  "mb": 4.56
+ },
+ {
+  "slug": "charlene-20",
+  "persona": "charlene",
+  "account": "blueprint",
+  "title": "Wash-Away Payoff",
+  "note": "One-event removal \u2014 the covering strips in a single motion.",
+  "dur": 34.3,
+  "mb": 5.37
+ },
+ {
+  "slug": "charlene-29",
+  "persona": "charlene",
+  "account": "blueprint",
+  "title": "Spoon Escalation",
+  "note": "Reveal-underneath escalation, tight on the give of the surface.",
+  "dur": 37.2,
+  "mb": 6.51
+ },
+ {
+  "slug": "charlene-30",
+  "persona": "charlene",
+  "account": "blueprint",
+  "title": "Remedy Glass Raise",
+  "note": "Quantities first, a purpose line per ingredient, glass raised to lens.",
+  "dur": 38.0,
+  "mb": 5.38
+ },
+ {
+  "slug": "charlene-33",
+  "persona": "charlene",
+  "account": "blueprint",
+  "title": "Honey Over Egg",
+  "note": "Macro pour with containment framing, cut to first and last word.",
+  "dur": 49.2,
+  "mb": 8.47
+ },
+ {
+  "slug": "fiona-03",
+  "persona": "fiona",
+  "account": "sylvan",
+  "title": "Clay Bowl Open",
+  "note": "Cold open on the bowl, spoon enters frame already moving.",
+  "dur": 40.0,
+  "mb": 5.1
+ },
+ {
+  "slug": "fiona-06",
+  "persona": "fiona",
+  "account": "sylvan",
+  "title": "Dome Tea Pour",
+  "note": "Wide-to-macro on the same setup, pour lands inside three seconds.",
+  "dur": 39.5,
+  "mb": 4.98
+ },
+ {
+  "slug": "fiona-08",
+  "persona": "fiona",
+  "account": "sylvan",
+  "title": "Marble Counter Build",
+  "note": "Ingredient laid in on a clean worktop, shadow kept off the prop.",
+  "dur": 34.9,
+  "mb": 3.59
+ },
+ {
+  "slug": "fiona-10",
+  "persona": "fiona",
+  "account": "sylvan",
+  "title": "Clear Gut Denial",
+  "note": "Transparent specimen with recognisable contents, denial-pour hook.",
+  "dur": 59.9,
+  "mb": 7.02
+ },
+ {
+  "slug": "fiona-11",
+  "persona": "fiona",
+  "account": "sylvan",
+  "title": "Egg Bowl Insert",
+  "note": "Hero prop at 40% of frame width, hand enters on the first word.",
+  "dur": 38.8,
+  "mb": 5.44
+ },
+ {
+  "slug": "fiona-20",
+  "persona": "fiona",
+  "account": "sylvan",
+  "title": "Egg And Jar Hold",
+  "note": "Two-object hold, focus pulled by hand position rather than a cut.",
+  "dur": 43.7,
+  "mb": 5.41
+ },
+ {
+  "slug": "fiona-22",
+  "persona": "fiona",
+  "account": "sylvan",
+  "title": "Honey Ribbon Macro",
+  "note": "Slow ribbon pour, levels matched so the pour carries the beat.",
+  "dur": 28.5,
+  "mb": 3.08
+ },
+ {
+  "slug": "fiona-24",
+  "persona": "fiona",
+  "account": "sylvan",
+  "title": "Soda On Sponge",
+  "note": "Absorption demo in one take, no cutaway to break the physics.",
+  "dur": 42.7,
+  "mb": 5.94
+ },
+ {
+  "slug": "fiona-26",
+  "persona": "fiona",
+  "account": "sylvan",
+  "title": "Glass Raise Close",
+  "note": "Remedy make in order, finished glass raised, never drunk on camera.",
+  "dur": 43.7,
+  "mb": 5.27
+ },
+ {
+  "slug": "fiona-34",
+  "persona": "fiona",
+  "account": "sylvan",
+  "title": "Two-Specimen Compare",
+  "note": "Side-by-side comparison prop, symmetrical framing, fast label beat.",
+  "dur": 42.4,
+  "mb": 4.21
+ },
+ {
+  "slug": "ryan-08",
+  "persona": "ryan",
+  "account": "kenji",
+  "title": "Cinnamon Pour",
+  "note": "Spoon-to-jar macro, tight crop, shot held only as long as it earns.",
+  "dur": 29.0,
+  "mb": 2.74
+ },
+ {
+  "slug": "ryan-09",
+  "persona": "ryan",
+  "account": "kenji",
+  "title": "Turmeric Over Egg",
+  "note": "Colour-led pour on a pale prop so the change reads on mute.",
+  "dur": 53.8,
+  "mb": 4.59
+ },
+ {
+  "slug": "ryan-11",
+  "persona": "ryan",
+  "account": "kenji",
+  "title": "Bone Cross-Section",
+  "note": "Comparison specimens, repeated-label open, hard cut on the name.",
+  "dur": 36.5,
+  "mb": 3.72
+ },
+ {
+  "slug": "ryan-12",
+  "persona": "ryan",
+  "account": "kenji",
+  "title": "Dome Pour, Two Up",
+  "note": "Second on-camera reactor, pour and reaction inside one frame.",
+  "dur": 23.6,
+  "mb": 2.23
+ },
+ {
+  "slug": "ryan-14",
+  "persona": "ryan",
+  "account": "kenji",
+  "title": "Four-Glass Lineup",
+  "note": "Lineup framing, left-to-right read, one glass per spoken beat.",
+  "dur": 35.7,
+  "mb": 3.66
+ },
+ {
+  "slug": "ryan-15",
+  "persona": "ryan",
+  "account": "kenji",
+  "title": "Banana Dust Hook",
+  "note": "Powder lands on a bare prop, macro insert on contact.",
+  "dur": 32.3,
+  "mb": 2.84
+ },
+ {
+  "slug": "ryan-22",
+  "persona": "ryan",
+  "account": "kenji",
+  "title": "Brass Pot Remedy",
+  "note": "Pour with containment negatives so nothing leaks the frame.",
+  "dur": 38.9,
+  "mb": 3.11
+ },
+ {
+  "slug": "ryan-27",
+  "persona": "ryan",
+  "account": "kenji",
+  "title": "Oil Into Tray",
+  "note": "Fill-the-cell macro, sound of the pour carries the cut.",
+  "dur": 35.5,
+  "mb": 3.5
+ },
+ {
+  "slug": "ryan-29",
+  "persona": "ryan",
+  "account": "kenji",
+  "title": "Egg Bowl Open",
+  "note": "Prop-first open, presenter arrives after the object lands.",
+  "dur": 38.5,
+  "mb": 3.27
+ },
+ {
+  "slug": "ryan-31",
+  "persona": "ryan",
+  "account": "kenji",
+  "title": "Gut Specimen Wash",
+  "note": "Specimen with visible contents, wash-away to a clean last frame.",
+  "dur": 59.6,
+  "mb": 6.42
+ }
+]
