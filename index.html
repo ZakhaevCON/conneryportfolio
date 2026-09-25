@@ -272,6 +272,38 @@
     .flagship .left{border-right:none;border-bottom:1px solid var(--line2)}
   }
 
+  /* ---------- flagship walkthrough video ---------- */
+  .demo{margin-top:28px;border:1px solid var(--line2);background:var(--card);position:relative}
+  .demo-head{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;
+    padding:22px 26px 18px;border-bottom:1px solid var(--line2)}
+  .demo-head .dlabel{font-family:'IBM Plex Mono',monospace;font-size:11.5px;letter-spacing:.15em;
+    font-weight:600;color:var(--acc-hi);text-transform:uppercase}
+  .demo-head h4{margin:0;font-size:clamp(18px,2.2vw,23px);font-weight:800;font-stretch:110%;line-height:1.15}
+  .demo-head p{margin:0;color:var(--dim);font-size:14.5px;flex:1 1 320px;min-width:0}
+  .demo-stage{position:relative;aspect-ratio:16/9;background:#000;overflow:hidden}
+  .demo-stage video{width:100%;height:100%;object-fit:contain;background:#000;display:block}
+  .demo-play{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;
+    justify-content:center;gap:16px;border:0;cursor:pointer;padding:0;
+    background:linear-gradient(180deg,rgba(7,9,13,.30),rgba(7,9,13,.66));transition:opacity .25s}
+  .demo-play .ring{width:74px;height:74px;border-radius:50%;border:1px solid rgba(255,255,255,.55);
+    background:rgba(7,9,13,.5);backdrop-filter:blur(3px);position:relative;
+    transition:transform .2s,background .2s,border-color .2s}
+  .demo-play .ring::after{content:"";position:absolute;top:50%;left:55%;transform:translate(-50%,-50%);
+    border-left:20px solid var(--ink);border-top:12px solid transparent;border-bottom:12px solid transparent}
+  .demo-play .cap{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--ink);text-shadow:0 2px 12px rgba(0,0,0,.8)}
+  .demo-play:hover .ring{transform:scale(1.07);background:var(--acc);border-color:var(--acc)}
+  .demo-play:hover .ring::after{border-left-color:#140800}
+  .demo-stage.playing .demo-play{opacity:0;pointer-events:none}
+  .demo-foot{display:flex;gap:10px;flex-wrap:wrap;padding:18px 26px 22px;border-top:1px solid var(--line2)}
+  .demo-foot i{font-style:normal;font-family:'IBM Plex Mono',monospace;font-size:11px;
+    letter-spacing:.1em;text-transform:uppercase;color:var(--dim);
+    border:1px solid var(--line2);padding:7px 11px}
+  @media (max-width:700px){
+    .demo-head{padding:18px 18px 15px}
+    .demo-foot{padding:15px 18px 18px}
+  }
+
   /* ---------- systems ---------- */
   .sys-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:64px}
   .sys{position:relative;background:linear-gradient(165deg,var(--card2),var(--card));border:1px solid var(--line);padding:30px 28px 32px;
@@ -580,6 +612,28 @@
             <span class="mono" style="font-size:11px;letter-spacing:.13em;color:var(--faint);text-transform:uppercase">Toolchain</span>
             <div class="chips" style="margin-top:12px"><i>Google Flow (Veo)</i><i>Text-to-Image</i><i>Image-to-Video</i><i>CapCut</i><i>Claude</i><i>Obsidian KB</i></div>
           </div>
+        </div>
+      </div>
+
+      <div class="demo rv">
+        <div class="demo-head">
+          <span class="dlabel">Walkthrough &middot; 3 min</span>
+          <h4>The auto-posting automation, running</h4>
+          <p>A screen recording of the publish step: finished reels pulled from Drive, captions and
+          conversion triggers attached, then scheduled onto each persona's Instagram account &mdash;
+          three posts a day, per account, hands-off.</p>
+        </div>
+        <div class="demo-stage" id="demoStage">
+          <video id="demoVideo" preload="none" playsinline
+                 poster="media/auto-posting-automation.jpg"
+                 src="media/auto-posting-automation.mp4"></video>
+          <button class="demo-play" id="demoPlay" type="button" aria-label="Play the auto-posting walkthrough">
+            <span class="ring"></span>
+            <span class="cap">Watch the system run</span>
+          </button>
+        </div>
+        <div class="demo-foot">
+          <i>Claude Code</i><i>Google Drive API</i><i>Publer API</i><i>Python</i><i>Scheduled posting</i>
         </div>
       </div>
 
@@ -1142,5 +1196,22 @@
       if (e.target.closest('a,button')) ring.classList.add('hot'); else ring.classList.remove('hot');
     });
   }
+})();
+</script>
+
+<script>
+(function(){
+  var stage = document.getElementById('demoStage');
+  if (!stage) return;
+  var v = document.getElementById('demoVideo'), btn = document.getElementById('demoPlay');
+  btn.addEventListener('click', function(){
+    v.controls = true;
+    stage.classList.add('playing');
+    var p = v.play();
+    if (p && p.catch) p.catch(function(){ stage.classList.remove('playing'); });
+  });
+  v.addEventListener('ended', function(){
+    v.controls = false; v.currentTime = 0; stage.classList.remove('playing');
+  });
 })();
 </script>
